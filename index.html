@@ -4,10 +4,219 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>cursor-clone</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Cursor</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <!-- navbar -->
+    <nav>
+      <div class="logo">Cursor</div>
+
+      <div class="middle">
+        <a href="#">Features</a>
+        <a href="#">Enterprise</a>
+        <a href="#">Pricing</a>
+        <a href="#">Resources</a>
+      </div>
+
+      <div class="btn">
+        <button class="sign-in">Sign in</button>
+        <button class="download">Download</button>
+      </div>
+    </nav>
+
+    <!-- here-text -->
+    <main>
+      <h1>
+        Built to make you extraordinarily productive, <br />Cursor is the best
+        way to code with AI.
+      </h1>
+      <button>Download For Windows</button>
+    </main>
+
+    <!-- hero image-->
+    <div class="hero-image">
+      <img src="./public/hero-image.png" alt="hero image" />
+    </div>
+
+    <!-- social proof -->
+    <div class="social-proof">
+      <p>Trusted every day by millions of professional developers.</p>
+      <div class="cards">
+        <div class="card strip">Stripe</div>
+        <div class="card openAI">OpenAI</div>
+        <div class="card linear">Linear</div>
+        <div class="card datadog">DATADOG</div>
+        <div class="card nvidia">NVIDIA</div>
+        <div class="card figma">Figma</div>
+        <div class="card ramp">ramp</div>
+        <div class="card adobe">Adobe</div>
+      </div>
+    </div>
+
+    <!-- left-right-cards -->
+    <div class="feature">
+      <div class="text">
+        <h2>Agent turns ideas into code</h2>
+        <p>
+          A human-AI programmer, orders of magnitude more effective than any
+          developer alone.
+        </p>
+        <a href="#">Learn about Agent →</a>
+      </div>
+      <div class="image">
+        <img src="./public/left-right-1.png" alt="feature image" />
+      </div>
+    </div>
+
+    <div class="feature">
+      <div class="image">
+        <img src="./public/left-right-2.png" alt="feature image" />
+      </div>
+
+      <div class="text">
+        <h2>Magically accurate autocomplete</h2>
+        <p>
+          Our custom Tab model predicts your next action with striking speed and
+          precision.
+        </p>
+        <a href="#">Learn about Tab →</a>
+      </div>
+    </div>
+
+    <div class="feature">
+      <div class="text">
+        <h2>Everywhere software gets built</h2>
+        <p>
+          Cursor is in GitHub reviewing your PRs, a teammate in Slack, and
+          anywhere else you work.
+        </p>
+        <a href="#">Learn about Cursor's ecosystem →</a>
+      </div>
+
+      <div class="image">
+        <img src="./public/left-right-3.png" alt="feature image" />
+      </div>
+    </div>
+
+    <!-- testimonials section -->
+    <section class="testimonials-section">
+      <h3>The new way to build software.</h3>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="quote">
+            It was night and day from one batch to another, adoption went from
+            single digits to over 80%. It just spread like wildfire, all the
+            best builders were using Cursor.
+          </p>
+
+          <div class="author">
+            <img
+              src="./public/testimonials/diana-hu-avatar.webp"
+              alt="Diana Hu"
+            />
+            <div>
+              <h6>Diana Hu</h6>
+              <span>General Partner, Y Combinator</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="quote">
+            The most useful AI tool that I currently pay for, hands down, is
+            Cursor. It's fast, autocompletes when and where you need it to,
+            handles brackets properly, sensible keyboard shortcuts,
+            bring-your-own-model... everything is well put together.
+          </p>
+
+          <div class="author">
+            <img
+              src="./public/testimonials/shadcn-avatar.webp"
+              alt="Diana Hu"
+            />
+            <div>
+              <h6>shadcn</h6>
+              <span>Creator of shadcn/ui</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="quote">
+            The best LLM applications have an autonomy slider: you control how
+            much independence to give the AI. In Cursor, you can do Tab
+            completion, Cmd+K for targeted edits, or you can let it rip with the
+            full autonomy agentic version.
+          </p>
+
+          <div class="author">
+            <img
+              src="./public/testimonials/andrej-karpathy-avatar.webp"
+              alt="Diana Hu"
+            />
+            <div>
+              <h6>Andrej Karpathy</h6>
+              <span>CEO, Eureka Labs</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="quote">
+            Cursor quickly grew from hundreds to thousands of extremely
+            enthusiastic Stripe employees. We spend more on R&D and software
+            creation than any other undertaking, and there's significant
+            economic outcomes when making that process more efficient and
+            productive.
+          </p>
+
+          <div class="author">
+            <img
+              src="./public/testimonials/patrick-collison-avatar.webp"
+              alt="Diana Hu"
+            />
+            <div>
+              <h6>Patrick Collison</h6>
+              <span>Co‑Founder & CEO, Stripe</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="quote">
+            It's official. I hate vibe coding. I love Cursor tab coding. It's
+            wild.
+          </p>
+
+          <div class="author">
+            <img
+              src="./public/testimonials/theprimeagen-avatar.webp"
+              alt="Diana Hu"
+            />
+            <div>
+              <h6>ThePrimeagen</h6>
+              <span>@ThePrimeagen</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="quote">
+            It's definitely becoming more fun to be a programmer. It's less
+            about digging through pages and more about what you want to happen.
+            We are at the 1% of what's possible, and it's in interactive
+            experiences like Cursor where models like GPT-5 shine brightest.
+          </p>
+
+          <div class="author">
+            <img
+              src="./public/testimonials/greg-brockman-avatar.webp"
+              alt="Diana Hu"
+            />
+            <div>
+              <h6>Greg Brockman</h6>
+              <span>President, OpenAI </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
