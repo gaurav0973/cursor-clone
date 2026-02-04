@@ -4,7 +4,9 @@ A recreation of the Cursor AI code editor landing page, built with HTML and CSS 
 
 ## Demo
 - [Live Link](https://your-live-demo-link.com)
--  <video src="./public/demo.mp4" controls width="600"></video>
+![Image](./public/screenshots/image.png)
+<video src="./public/demo.mp4" controls></video>
+
 ## 📋 Sections Recreated
 
 This clone recreates the following sections from the original Cursor website:
