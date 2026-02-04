@@ -1,27 +1,31 @@
 :root {
-  --hover-bg-color: #1B1913;
-  --bg-color : #14120B;
-  --text-color: #EDECEC;
-  --alternate-text-color: #CCCCCC;
+  --hover-bg-color: #1b1913;
+  --bg-color: #14120b;
+  --text-color: #edecec;
+  --alternate-text-color: #cccccc;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: var(--bg-color);
   color: var(--text-color);
   /* border: 2px solid red; */
   height: 100vh;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
 }
 
-
 /* navigation bar */
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,13 +40,12 @@ nav{
   font-weight: 600;
   letter-spacing: 0.5px;
 }
-.middle a{
-    text-decoration: none;
-    color: var(--text-color);
-    margin-left: 20px;
-
+.middle a {
+  text-decoration: none;
+  color: var(--text-color);
+  margin-left: 20px;
 }
-.middle a:hover{
+.middle a:hover {
   color: var(--alternate-text-color);
 }
 .btn {
@@ -54,49 +57,48 @@ button {
   border-radius: 50px;
   cursor: pointer;
 }
-.sign-in{
+.sign-in {
   border: 0.2px solid var(--alternate-text-color);
   background-color: var(--bg-color);
   color: var(--text-color);
 }
-.sign-in:hover{
+.sign-in:hover {
   background-color: var(--hover-bg-color);
 }
-.download{
+.download {
   color: var(--bg-color);
   background-color: var(--text-color);
 }
 
 /* hero-text */
-main{
+main {
   margin: 20px auto;
   width: 80%;
 }
 
-main button{
+main button {
   margin-top: 20px;
   padding: 15px;
   font-size: 15px;
 }
 
-main button:hover{
+main button:hover {
   background-color: var(--alternate-text-color);
 }
 
-
 /* hero image */
-.hero-image{
+.hero-image {
   width: 80%;
   margin: 50px auto;
 }
 
-.hero-image img{
+.hero-image img {
   width: 100%;
   height: auto;
 }
 
 /* social proof */
-.social-proof{
+.social-proof {
   width: 80%;
   margin: 50px auto;
 }
@@ -150,7 +152,7 @@ main button:hover{
 }
 
 .feature:hover {
-  background-color: #1C1913;
+  background-color: #1c1913;
 }
 
 .feature:nth-child(even) {
@@ -218,7 +220,6 @@ main button:hover{
   min-height: 260px;
 }
 
-
 .testimonial-card .quote {
   font-size: 15px;
   line-height: 1.6;
@@ -249,7 +250,6 @@ main button:hover{
   color: var(--alternate-text-color);
 }
 
-
 /* about the proud */
 .product-desc {
   width: 80%;
@@ -270,7 +270,7 @@ main button:hover{
 
 .desc-card {
   background-color: var(--hover-bg-color);
-  border: 1px solid rgba(255,255,255,0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 16px;
   padding: 28px;
   display: flex;
@@ -326,7 +326,7 @@ main button:hover{
 }
 .changelog-card {
   background-color: var(--hover-bg-color);
-  border: 1px solid rgba(255,255,255,0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 14px;
   padding: 20px;
   display: flex;
@@ -340,7 +340,7 @@ main button:hover{
   font-size: 12px;
   padding: 2px 8px;
   border-radius: 999px;
-  border: 1px solid rgba(255,255,255,0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   color: var(--text-color);
 }
 
@@ -356,7 +356,7 @@ main button:hover{
 }
 .changelog-card:hover {
   background-color: #1b1918;
-  border-color: rgba(255,255,255,0.15);
+  border-color: rgba(255, 255, 255, 0.15);
 }
 .changelog-link {
   font-size: 14px;
@@ -368,27 +368,24 @@ main button:hover{
   color: #cf5600;
 }
 
-.cta-image{
+.cta-image {
   width: 80%;
   margin: 80px auto;
 }
 
-.cta-image img{
+.cta-image img {
   width: 100%;
 }
-.cta-image img:hover{
-  cursor:pointer
+.cta-image img:hover {
+  cursor: pointer;
 }
 
 /* highlights-layput */
 .highlights {
-  max-width: 100%;
+  max-width: 1100px;
   margin: 160px auto;
-  background-color: var(--hover-bg-color);
-  padding: 0 20px;
+  padding: 0 24px;
 }
-
-
 .highlights-layout {
   display: grid;
   grid-template-columns: 180px 1fr;
@@ -400,23 +397,25 @@ main button:hover{
   font-size: 15px;
   font-weight: 500;
   color: var(--alternate-text-color);
-  margin-top: 6px; 
+  margin-top: 6px;
 }
+
 .highlights-feed {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
+
 .highlight-card {
-  padding: 18px 20px;
-  background: var(--hover-bg-color);
-  border: 1px solid rgba(255,255,255,0.08);
+  background-color: var(--hover-bg-color);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 12px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
+
 .highlight-card h5 {
   font-size: 16px;
   font-weight: 500;
@@ -433,14 +432,14 @@ main button:hover{
   color: rgba(204, 204, 204, 0.6);
   margin-top: 6px;
 }
+
 .highlights-link {
   margin-top: 24px;
   font-size: 14px;
-  color: #ff7a18;
+  color: rgb(199, 11, 11);
   text-decoration: none;
   width: fit-content;
 }
-
 .highlights-link:hover {
   color: #cf5600;
 }
