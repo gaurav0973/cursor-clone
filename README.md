@@ -3,7 +3,7 @@
 A recreation of the Cursor AI code editor landing page, built with HTML and CSS only.
 
 ## Demo
-- [Live Link](https://your-live-demo-link.com)
+- [Live Link](https://cursor-clone-pi.vercel.app/)
 ![Image](./public/screenshots/image.png)
 <video src="./public/demo.mp4" controls></video>
 
